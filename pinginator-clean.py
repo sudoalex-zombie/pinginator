@@ -1,5 +1,5 @@
 # Description: A simple Python script to monitor a list of IP addresses and send an email alert if any of them fail to respond to ping requests.
-# v1-2: Added support for reading IP addresses and names from a file that can be commented out with #. Added logging to a file and console.
+# Added support for reading IP addresses and names from a file that can be commented out with #. Added logging to a file and console.
 
 import smtplib
 from email.mime.text import MIMEText
